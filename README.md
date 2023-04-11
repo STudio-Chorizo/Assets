@@ -1,3 +1,6 @@
+# Repo parent
+https://github.com/STudio-Chorizo/MiniStudio
+
 # Architecture
 (essaye de tenir cette architechture à jour pour les tech, merci ^^)  
 (je te mets en template l'architechture des techs)
