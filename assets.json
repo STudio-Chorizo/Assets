@@ -1,0 +1,33 @@
+{
+    "shaders":
+    {
+        "dir": "Assets/shaders/",
+        "exts": 
+        [
+            ".vert",
+            ".frag"
+        ]
+    },
+
+    "skybox":
+    {
+        "dir": "Assets/skybox/",
+        "ext": "png"
+    },
+
+    "Cube":
+    {
+        "textures":
+        [
+            "Assets/textures/img.png",
+            "Assets/textures/img_1.png",
+            "Assets/textures/img_2.png"
+        ]
+    },
+
+    "Cat":
+    {
+        "texture": "Assets/objects/cat/20430_Cat_diff_v1.jpg",
+        "object": "Assets/objects/cat/20430_Cat_v1_NEW.obj"
+    }
+}
