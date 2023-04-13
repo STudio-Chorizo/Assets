@@ -25,7 +25,7 @@
         ]
     },
 
-    "Cat":
+    "cat":
     {
         "texture": "Assets/objects/cat/20430_Cat_diff_v1.jpg",
         "object": "Assets/objects/cat/20430_Cat_v1_NEW.obj"
