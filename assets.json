@@ -29,5 +29,11 @@
     {
         "texture": "Assets/objects/cat/20430_Cat_diff_v1.jpg",
         "object": "Assets/objects/cat/20430_Cat_v1_NEW.obj"
+    },
+
+    "eagle":
+    {
+        "texture": "Assets/objects/cat/all_pieces.jpg",
+        "object": "Assets/objects/cat/all_piece.obj"
     }
 }
