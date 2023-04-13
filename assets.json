@@ -85,18 +85,16 @@
         "object": "objects/debris/asteroid.obj"
     },
 
-    "debris":
+    "debris1":
     {
-        "textures": 
-        [
-            "objects/debris/debris1.jpg",
-            "objects/debris/debris2.jpg"
-        ],
-        "objects": 
-        [
-            "objects/debris/debris1.obj",
-            "objects/debris/debris2.obj"
-        ]
+        "texture": "objects/debris/debris1.jpg",
+        "object": "objects/debris/debris1.obj"
+    },
+
+    "debris2":
+    {
+        "texture": "objects/debris/debris2.jpg",
+        "object": "objects/debris/debris2.obj"
     },
 
     "planet":
