@@ -97,5 +97,11 @@
             "Assets/objects/debris/debris1.obj",
             "Assets/objects/debris/debris2.obj"
         ]
+    },
+
+    "planet":
+    {
+        "texture": "Assets/objects/planet/earth.jpg",
+        "object": "Assets/objects/planet/earth.obj"
     }
 }
