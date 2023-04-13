@@ -33,7 +33,7 @@
 
     "eagle":
     {
-        "texture": "Assets/objects/cat/all_pieces.jpg",
-        "object": "Assets/objects/cat/all_piece.obj"
+        "texture": "Assets/objects/eagle/all_pieces.jpg",
+        "object": "Assets/objects/eagle/all_pieces.obj"
     }
 }
