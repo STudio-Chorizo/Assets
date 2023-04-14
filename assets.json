@@ -1,7 +1,7 @@
 {
     "shaders":
     {
-        "dir": "Assets/shaders/",
+        "dir": "shaders/",
         "exts": 
         [
             ".vert",
@@ -11,103 +11,103 @@
 
     "skybox":
     {
-        "dir": "Assets/skybox/",
+        "dir": "skybox/",
         "ext": "png"
     },
 
     "cube":
     {
-        "texture": "Assets/textures/img.png",
-        "object": "Assets/textures/cube.obj"
+        "texture": "textures/img.png",
+        "object": "textures/cube.obj"
     },
 
     "cube1":
     {
-        "texture": "Assets/textures/img_1.png",
-        "object": "Assets/textures/cube.obj"
+        "texture": "textures/img_1.png",
+        "object": "textures/cube.obj"
     },
 
     "cube2":
     {
-        "texture": "Assets/textures/img_2.png",
-        "object": "Assets/textures/cube.obj"
+        "texture": "textures/img_2.png",
+        "object": "textures/cube.obj"
     },
 
     "cat":
     {
-        "texture": "Assets/objects/cat/20430_Cat_diff_v1.jpg",
-        "object": "Assets/objects/cat/20430_Cat_v1_NEW.obj"
+        "texture": "objects/cat/20430_Cat_diff_v1.jpg",
+        "object": "objects/cat/20430_Cat_v1_NEW.obj"
     },
 
     "eagle":
     {
-        "texture": "Assets/objects/eagle/all_pieces.jpg",
-        "object": "Assets/objects/eagle/all_pieces.obj"
+        "texture": "objects/eagle/all_pieces.jpg",
+        "object": "objects/eagle/all_pieces.obj"
     },
 
     "eagle_body":
     {
-        "texture": "Assets/objects/eagle/body.jpg",
-        "object": "Assets/objects/eagle/body.obj"
+        "texture": "objects/eagle/body.jpg",
+        "object": "objects/eagle/body.obj"
     },
 
     "eagle_head":
     {
-        "texture": "Assets/objects/eagle/head.jpg",
-        "object": "Assets/objects/eagle/head.obj"
+        "texture": "objects/eagle/head.jpg",
+        "object": "objects/eagle/head.obj"
     },
 
     "eagle_tail":
     {
-        "texture": "Assets/objects/eagle/tail.jpg",
-        "object": "Assets/objects/eagle/tail.obj"
+        "texture": "objects/eagle/tail.jpg",
+        "object": "objects/eagle/tail.obj"
     },
 
     "eagle_left_leg":
     {
-        "texture": "Assets/objects/eagle/left_leg.jpg",
-        "object": "Assets/objects/eagle/left_leg.obj"
+        "texture": "objects/eagle/left_leg.jpg",
+        "object": "objects/eagle/left_leg.obj"
     },
 
     "eagle_right_leg":
     {
-        "texture": "Assets/objects/eagle/right_leg.jpg",
-        "object": "Assets/objects/eagle/right_leg.obj"
+        "texture": "objects/eagle/right_leg.jpg",
+        "object": "objects/eagle/right_leg.obj"
     },
 
     "eagle_left_wing":
     {
-        "texture": "Assets/objects/eagle/left_wing.jpg",
-        "object": "Assets/objects/eagle/left_wing.obj"
+        "texture": "objects/eagle/left_wing.jpg",
+        "object": "objects/eagle/left_wing.obj"
     },
 
     "eagle_right_wing":
     {
-        "texture": "Assets/objects/eagle/right_wing.jpg",
-        "object": "Assets/objects/eagle/right_wing.obj"
+        "texture": "objects/eagle/right_wing.jpg",
+        "object": "objects/eagle/right_wing.obj"
     },
 
     "asteroid":
     {
-        "texture": "Assets/objects/debris/asteroid.jpg",
-        "object": "Assets/objects/debris/asteroid.obj"
+        "texture": "objects/debris/asteroid.jpg",
+        "object": "objects/debris/asteroid.obj"
     },
 
     "debris1":
     {
-        "texture": "Assets/objects/debris/debris1.jpg",
-        "object": "Assets/objects/debris/debris1.obj"
+        "texture": "objects/debris/debris1.jpg",
+        "object": "objects/debris/debris1.obj"
     },
 
     "debris2":
     {
-        "texture": "Assets/objects/debris/debris2.jpg",
-        "object": "Assets/objects/debris/debris2.obj"
+        "texture": "objects/debris/debris2.jpg",
+        "object": "objects/debris/debris2.obj"
     },
 
     "planet":
     {
-        "texture": "Assets/objects/planet/earth.jpg",
-        "object": "Assets/objects/planet/earth.obj"
+        "texture": "objects/planet/earth.jpg",
+        "object": "objects/planet/earth.obj"
     }
 }
