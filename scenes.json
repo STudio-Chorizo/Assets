@@ -5,7 +5,7 @@
             "type": "Player",
             "name": "eagle",
             "pos": [0, 0, 0],
-            "rot": [0, 90, 0],
+            "rot": [0, 3.14, 0],
             "scale": [1, 1, 1],
             "collider": [3, 2, 2]
         },
@@ -14,6 +14,24 @@
             "type": "GameObject",
             "name": "cat",
             "pos": [-10, -7.5, 20],
+            "rot": [-90, 0, 0],
+            "scale": [1, 1, 1],
+            "collider": [5, 6, 5]
+        },
+        
+        {
+            "type": "GameObject",
+            "name": "cat",
+            "pos": [-10, -7.5, 40],
+            "rot": [-90, 0, 0],
+            "scale": [1, 1, 1],
+            "collider": [5, 6, 5]
+        },
+
+        {
+            "type": "GameObject",
+            "name": "cat",
+            "pos": [-10, -7.5, 60],
             "rot": [-90, 0, 0],
             "scale": [1, 1, 1],
             "collider": [5, 6, 5]
