@@ -5,88 +5,27 @@
             "type": "Player",
             "name": "eagle",
             "pos": [0, 0, 0],
-            "rot": [0, 0, 0],
-            "scale": [1, 1, 1]
+            "rot": [0, 90, 0],
+            "scale": [1, 1, 1],
+            "collider": [3, 2, 2]
         },
 
         {
             "type": "GameObject",
             "name": "cat",
-            "pos": [-10, -7.5, -20],
+            "pos": [-10, -7.5, 20],
             "rot": [-90, 0, 0],
-            "scale": [1, 1, 1]
+            "scale": [1, 1, 1],
+            "collider": [5, 6, 5]
         },
 
         {
             "type": "GameObject",
             "name": "cat",
-            "pos": [-10, -7.5, -40],
-            "rot": [-90, 5, 0],
-            "scale": [1, 1, 1]
-        },
-
-        {
-            "type": "GameObject",
-            "name": "cat",
-            "pos": [-10, -7.5, -60],
-            "rot": [-90, 10, 0],
-            "scale": [1, 1, 1]
-        },
-
-        {
-            "type": "GameObject",
-            "name": "cat",
-            "pos": [-10, -7.5, -80],
-            "rot": [-90, 15, 0],
-            "scale": [1, 1, 1]
-        },
-
-        {
-            "type": "GameObject",
-            "name": "cat",
-            "pos": [-10, -7.5, -100],
-            "rot": [-90, 20, 0],
-            "scale": [1, 1, 1]
-        },
-
-        {
-            "type": "GameObject",
-            "name": "cat",
-            "pos": [-10, -7.5, -120],
-            "rot": [-90, 25, 0],
-            "scale": [1, 1, 1]
-        },
-
-        {
-            "type": "GameObject",
-            "name": "cat",
-            "pos": [-10, -7.5, -140],
+            "pos": [-10, -7.5, 140],
             "rot": [-90, 30, 0],
-            "scale": [1, 1, 1]
-        },
-
-        {
-            "type": "GameObject",
-            "name": "cat",
-            "pos": [-10, -7.5, -160],
-            "rot": [-90, 35, 0],
-            "scale": [1, 1, 1]
-        },
-
-        {
-            "type": "GameObject",
-            "name": "cat",
-            "pos": [-10, -7.5, -180],
-            "rot": [-90, 40, 0],
-            "scale": [1, 1, 1]
-        },
-
-        {
-            "type": "GameObject",
-            "name": "cat",
-            "pos": [-10, -7.5, -200],
-            "rot": [-90, 45, 0],
-            "scale": [1, 1, 1]
+            "scale": [1, 1, 1],
+            "collider": [5, 6, 5]
         }
     ]
 }
