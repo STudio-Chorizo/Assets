@@ -4,46 +4,109 @@
         {
             "type": "Player",
             "name": "eagle",
+            "obj": "eagle",
+            "shader": "metal",
             "pos": [0, 0, 0],
             "rot": [0, 0, 0],
             "scale": [1, 1, 1],
-            "collider": [3, 2, 2]
+            "collider": [3, 2, 2],
+            "nb": 1
         },
 
         {
             "type": "GameObject",
             "name": "cat",
-            "pos": [-10, -7.5, 20],
-            "rot": [-90, 0, 0],
+            "obj": "cat",
+            "shader": "default",
+            "pos": [0, 0, -50],
+            "rot": [0, 0, 0],
             "scale": [1, 1, 1],
-            "collider": [5, 6, 5]
-        },
-        
-        {
-            "type": "GameObject",
-            "name": "cat",
-            "pos": [-10, -7.5, 40],
-            "rot": [-90, 0, 0],
-            "scale": [1, 1, 1],
-            "collider": [5, 6, 5]
+            "collider": [5, 6, 5],
+            "nb": 1
         },
 
         {
             "type": "GameObject",
             "name": "cat",
-            "pos": [-10, -7.5, 60],
-            "rot": [-90, 0, 0],
+            "obj": "cat",
+            "shader": "default",
+            "pos": [10, 0, -50],
+            "rot": [0, 0, 0],
             "scale": [1, 1, 1],
-            "collider": [5, 6, 5]
+            "collider": [5, 6, 5],
+            "nb": 1
         },
 
         {
             "type": "GameObject",
             "name": "cat",
-            "pos": [-10, -7.5, 140],
-            "rot": [-90, 30, 0],
+            "obj": "cat",
+            "shader": "default",
+            "pos": [-10, 0, -50],
+            "rot": [0, 0, 0],
             "scale": [1, 1, 1],
-            "collider": [5, 6, 5]
+            "collider": [5, 6, 5],
+            "nb": 1
+        },
+
+        {
+            "type": "GameObject",
+            "name": "cat",
+            "obj": "cat",
+            "shader": "default",
+            "pos": [10, 0, -10],
+            "rot": [0, 0, 0],
+            "scale": [1, 1, 1],
+            "collider": [5, 6, 5],
+            "nb": 1
+        },
+
+        {
+            "type": "GameObject",
+            "name": "cat",
+            "obj": "cat",
+            "shader": "default",
+            "pos": [-10, 0, -10],
+            "rot": [0, 0, 0],
+            "scale": [1, 1, 1],
+            "collider": [5, 6, 5],
+            "nb": 1
+        },
+
+        {
+            "type": "GameObject",
+            "name": "cat",
+            "obj": "cat",
+            "shader": "default",
+            "pos": [0, 10, 0],
+            "rot": [0, 0, 0],
+            "scale": [1, 1, 1],
+            "collider": [5, 6, 5],
+            "nb": 1
+        },
+
+        {
+            "type": "GameObject",
+            "name": "cat",
+            "obj": "cat",
+            "shader": "default",
+            "pos": [0, 10, 10],
+            "rot": [0, 0, 0],
+            "scale": [1, 1, 1],
+            "collider": [5, 6, 5],
+            "nb": 1
+        },
+
+        {
+            "type": "GameObject",
+            "name": "cat",
+            "obj": "cat",
+            "shader": "default",
+            "pos": [0, 10, 20],
+            "rot": [0, 0, 0],
+            "scale": [1, 1, 1],
+            "collider": [5, 6, 5],
+            "nb": 1
         }
     ]
 }
