@@ -17,9 +17,9 @@
             "type": "GameObject",
             "name": "cat",
             "obj": "cat",
-            "shader": "default",
-            "pos": [0, 0, -50],
-            "rot": [0, 0, 0],
+            "shader": "metal",
+            "pos": [0, 0, -100],
+            "rot": [0, 180, 0],
             "scale": [1, 1, 1],
             "collider": [5, 6, 5],
             "nb": 1
@@ -29,9 +29,9 @@
             "type": "GameObject",
             "name": "cat",
             "obj": "cat",
-            "shader": "default",
-            "pos": [10, 0, -50],
-            "rot": [0, 0, 0],
+            "shader": "metal",
+            "pos": [-10, 0, -100],
+            "rot": [0, 180, 0],
             "scale": [1, 1, 1],
             "collider": [5, 6, 5],
             "nb": 1
@@ -41,69 +41,9 @@
             "type": "GameObject",
             "name": "cat",
             "obj": "cat",
-            "shader": "default",
-            "pos": [-10, 0, -50],
-            "rot": [0, 0, 0],
-            "scale": [1, 1, 1],
-            "collider": [5, 6, 5],
-            "nb": 1
-        },
-
-        {
-            "type": "GameObject",
-            "name": "cat",
-            "obj": "cat",
-            "shader": "default",
-            "pos": [10, 0, -10],
-            "rot": [0, 0, 0],
-            "scale": [1, 1, 1],
-            "collider": [5, 6, 5],
-            "nb": 1
-        },
-
-        {
-            "type": "GameObject",
-            "name": "cat",
-            "obj": "cat",
-            "shader": "default",
-            "pos": [-10, 0, -10],
-            "rot": [0, 0, 0],
-            "scale": [1, 1, 1],
-            "collider": [5, 6, 5],
-            "nb": 1
-        },
-
-        {
-            "type": "GameObject",
-            "name": "cat",
-            "obj": "cat",
-            "shader": "default",
-            "pos": [0, 10, 0],
-            "rot": [0, 0, 0],
-            "scale": [1, 1, 1],
-            "collider": [5, 6, 5],
-            "nb": 1
-        },
-
-        {
-            "type": "GameObject",
-            "name": "cat",
-            "obj": "cat",
-            "shader": "default",
-            "pos": [0, 10, 10],
-            "rot": [0, 0, 0],
-            "scale": [1, 1, 1],
-            "collider": [5, 6, 5],
-            "nb": 1
-        },
-
-        {
-            "type": "GameObject",
-            "name": "cat",
-            "obj": "cat",
-            "shader": "default",
-            "pos": [0, 10, 20],
-            "rot": [0, 0, 0],
+            "shader": "metal",
+            "pos": [10, 0, -100],
+            "rot": [0, 180, 0],
             "scale": [1, 1, 1],
             "collider": [5, 6, 5],
             "nb": 1

@@ -19,9 +19,8 @@ uniform sampler2D u_texture_0;
 uniform vec3 camPos;
 uniform sampler2DShadow shadowMap;
 uniform vec2 u_resolution;
-
-uniform vec3 ViewDirection;
-uniform samplerCube cubeMap;
+uniform sampler2D texture_noise;
+uniform sampler2D texture_iridescence;
 
 
 float lookup(float ox, float oy) {
@@ -75,6 +74,12 @@ float getShadow() {
     return shadow;
 }
 
+const float metalness = 5;
+const float noise_strength = 0.5;
+const float noise_min = 0;
+const float noise_scale = 30;
+uniform vec3 ViewDirection;
+uniform samplerCube cubeMap;
 
 vec3 getLight(vec3 color) {
     vec3 Normal = normalize(normal);
@@ -91,7 +96,7 @@ vec3 getLight(vec3 color) {
     vec3 viewDir = normalize(camPos - fragPos);
     vec3 reflectDir = reflect(-lightDir, Normal);
     float spec = pow(max(dot(viewDir, reflectDir), 0), 32);
-    vec3 specular = spec * light.Is;
+    vec3 specular = spec * light.Is * metalness;
 
     // shadow
 //    float shadow = getShadow();
@@ -100,7 +105,11 @@ vec3 getLight(vec3 color) {
     return color * (ambient + (diffuse + specular) * shadow);
 }
 
-const float metalness = 2.5;
+float rand(vec2 co){
+    return fract(sin(dot(co, vec2(12.9898, 78.233))) * 43758.5453);
+}
+
+
 
 void main() {
     float gamma = 2.2;
@@ -111,10 +120,16 @@ void main() {
 
     color = pow(color, 1 / vec3(gamma));
 
+    vec3 n_normal = normalize(normal);
+    vec3 n_wiew_direction = normalize(ViewDirection);
+    vec3 n_reflection = normalize(reflect(n_wiew_direction, n_normal));
 
-    vec3 reflectedDirection = normalize(reflect(ViewDirection, normalize(normal)));
-    reflectedDirection.y = -reflectedDirection.y;
+    vec3 noise_vector = (texture2D(texture_noise, uv_0 * noise_scale).xyz - vec3(rand(uv_0))) * noise_strength;
+    noise_vector += noise_min;
 
-    vec4 fragColor = textureCube(cubeMap, reflectedDirection) * vec4(color, 1) * metalness;
-    gl_FragColor = fragColor;
+    float inverse_dot_view = 1.0 - max(dot(normalize(n_normal + noise_vector), n_wiew_direction), 0.0);
+    vec3 lookup_table_color = texture2D(texture_iridescence, vec2(inverse_dot_view, 0.0)).rgb;
+
+    gl_FragColor.rgb = color * textureCube(cubeMap, n_reflection).rgb; //* lookup_table_color * metalness;
+    gl_FragColor.a = 1.0;
 }

@@ -14,6 +14,16 @@
         "dir": "Assets/skybox/",
         "ext": "png"
     },
+    
+    "noise":
+    {
+        "dir": "Assets/textures/shade/noise.jpg"
+    },
+    
+    "iridescence":
+    {
+        "dir": "Assets/textures/shade/iridescence.png"
+    },
 
     "cube":
     {
