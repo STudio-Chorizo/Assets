@@ -18,7 +18,19 @@
             "name": "cat",
             "obj": "cat",
             "shader": "metal",
-            "pos": [0, 0, -100],
+            "pos": [0, 0, 100],
+            "rot": [-90, 180, 0],
+            "scale": [1, 1, 1],
+            "collider": [5, 6, 5],
+            "nb": 1
+        },
+
+        {
+            "type": "GameObject",
+            "name": "cat",
+            "obj": "cat",
+            "shader": "metal",
+            "pos": [-10, 0, 100],
             "rot": [0, 180, 0],
             "scale": [1, 1, 1],
             "collider": [5, 6, 5],
@@ -30,19 +42,7 @@
             "name": "cat",
             "obj": "cat",
             "shader": "metal",
-            "pos": [-10, 0, -100],
-            "rot": [0, 180, 0],
-            "scale": [1, 1, 1],
-            "collider": [5, 6, 5],
-            "nb": 1
-        },
-
-        {
-            "type": "GameObject",
-            "name": "cat",
-            "obj": "cat",
-            "shader": "metal",
-            "pos": [10, 0, -100],
+            "pos": [10, 0, 100],
             "rot": [0, 180, 0],
             "scale": [1, 1, 1],
             "collider": [5, 6, 5],
