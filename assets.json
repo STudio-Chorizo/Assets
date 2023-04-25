@@ -128,16 +128,77 @@
 
     "guiMenu":
     {
-        "hoverButtonArrow":
+        "main":
         {
-            "left":"Assets/textures/Gui/MovingArrows/Left_Arrow.png",
-            "right":"Assets/textures/Gui/MovingArrows/Right_Arrow.png"
+            "background":"Assets/textures/Gui/MainMenu/MainMenu_BG.png",
+            "playButton":
+            {
+                "normal": "Assets/textures/GUI/MainMenu/Buttons/Play/Play_Normal.png",
+                "hover": "Assets/textures/GUI/MainMenu/Buttons/Play/Play_Hover.png",
+                "pressed": "Assets/textures/GUI/MainMenu/Buttons/Play/Play_Pressed.png"
+            },
+            "newGameButton":
+            {
+                "normal": "Assets/textures/GUI/MainMenu/Buttons/NewGame/NewGame_Normal.png",
+                "hover": "Assets/textures/GUI/MainMenu/Buttons/NewGame/NewGame_Hover.png",
+                "pressed": "Assets/textures/GUI/MainMenu/Buttons/NewGame/NewGame_Pressed.png"
+            },
+            "leaderboardButton":
+            {
+                "normal": "Assets/textures/GUI/MainMenu/Buttons/Leaderboard/Leaderboard_Normal.png",
+                "hover": "Assets/textures/GUI/MainMenu/Buttons/Leaderboard/Leaderboard_Hover.png",
+                "pressed": "Assets/textures/GUI/MainMenu/Buttons/Leaderboard/Leaderboard_Pressed.png"
+            },
+            "savesButton":
+            {
+                "normal": "Assets/textures/GUI/MainMenu/Buttons/Saves/Saves_Normal.png",
+                "hover": "Assets/textures/GUI/MainMenu/Buttons/Saves/Saves_Hover.png",
+                "pressed": "Assets/textures/GUI/MainMenu/Buttons/Saves/Saves_Pressed.png"
+            },
+            "optionsButton":
+            {
+                "normal": "Assets/textures/GUI/MainMenu/Buttons/Options/Options_Normal.png",
+                "hover": "Assets/textures/GUI/MainMenu/Buttons/Options/Options_Hover.png",
+                "pressed": "Assets/textures/GUI/MainMenu/Buttons/Options/Options_Pressed.png"
+            },
+            "exitButton":
+            {
+                "normal": "Assets/textures/GUI/MainMenu/Buttons/Exit/Exit_Normal.png",
+                "hover": "Assets/textures/GUI/MainMenu/Buttons/Exit/Exit_Hover.png",
+                "pressed": "Assets/textures/GUI/MainMenu/Buttons/Exit/Exit_Pressed.png"
+            }
         },
-        "exitButton":
+        "pause":
         {
-            "normal": "Assets/textures/GUI/MainMenu/Buttons/Exit/Exit_Normal.png",
-            "hover": "Assets/textures/GUI/MainMenu/Buttons/Exit/Exit_Hover.png",
-            "pressed": "Assets/textures/GUI/MainMenu/Buttons/Exit/Exit_Pressed.png"
+            "background":"Assets/textures/Gui/PauseMenu/Background.png",
+            "window":"Assets/textures/Gui/PauseMenu/Window.png",
+            "resumeButton":
+            {
+                "normal": "Assets/textures/Gui/PauseMenu/Buttons/ResumeButton/Resume_Normal.png",
+                "hover": "Assets/textures/Gui/PauseMenu/Buttons/ResumeButton/Resume_Hover.png"
+            },
+            "menuButton":
+            {
+                "normal": "Assets/textures/Gui/PauseMenu/Buttons/MenuButton/Menu_Normal.png",
+                "hover": "Assets/textures/Gui/PauseMenu/Buttons/MenuButton/Menu_Hover.png"
+            },
+            "exitButton":
+            {
+                "normal": "Assets/textures/Gui/PauseMenu/Buttons/ExitButton/Exit_Normal.png",
+                "hover": "Assets/textures/Gui/PauseMenu/Buttons/ExitButton/Exit_Hover.png"
+            }
+        },
+        "options":
+        {
+            
+        },
+        "allMenu":
+        {
+            "hoverButtonArrow":
+            {
+                "left":"Assets/textures/Gui/MovingArrows/Left_Arrow.png",
+                "right":"Assets/textures/Gui/MovingArrows/Right_Arrow.png"
+            }
         }
     }
 }
