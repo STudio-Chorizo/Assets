@@ -143,7 +143,7 @@
 
     "playlist":
     {
-        "menu": "dependencies\\music\\BATIMS.mp3",
-        "game": "dependencies\\music\\DDH.mp3"
+        "menu": "Assets/misc/BATIMS.mp3",
+        "game": "Assets/misc/DDH.mp3"
     }
 }
