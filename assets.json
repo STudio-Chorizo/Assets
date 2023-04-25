@@ -206,7 +206,7 @@
     {
         "menu": {
             "type": "music",
-            "dir": "Assets/misc/BATIMS.mp3"
+            "dir": "Assets/misc/Test_milky_wagon.mp3"
         },
         "game": {
             "type": "music",
