@@ -139,5 +139,11 @@
             "hover": "Assets/textures/GUI/MainMenu/Buttons/Exit/Exit_Hover.png",
             "pressed": "Assets/textures/GUI/MainMenu/Buttons/Exit/Exit_Pressed.png"
         }
+    },
+
+    "music":
+    {
+        "menu": "dependencies\\music\\BATIMS.mp3",
+        "game": "dependencies\\music\\DDH.mp3"
     }
 }
