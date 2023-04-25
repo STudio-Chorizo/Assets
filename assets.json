@@ -200,5 +200,22 @@
                 "right":"Assets/textures/Gui/MovingArrows/Right_Arrow.png"
             }
         }
+    },
+
+    "playlist":
+    {
+        "menu": {
+            "type": "music",
+            "dir": "Assets/misc/BATIMS.mp3"
+        },
+        "game": {
+            "type": "music",
+            "dir": "Assets/misc/DDH.mp3"
+        }
+    },
+
+    "nausea":
+    {
+        "dir": "Assets/textures/nausea.png"
     }
 }
