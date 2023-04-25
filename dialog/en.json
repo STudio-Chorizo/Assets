@@ -1,0 +1,17 @@
+{
+    "menu":
+    {
+        "pause":
+        {
+            "resume_btn":"Resume",
+            "options_btn":"Options",
+            "exit_btn":"Exit"
+        },
+        "option":
+        {
+            "back_btn":"Back",
+            "fr_btn":"French",
+            "en_btn":"English"
+        }
+    }
+}

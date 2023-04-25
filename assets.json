@@ -119,5 +119,25 @@
     {
         "texture": "Assets/objects/planet/earth.jpg",
         "object": "Assets/objects/planet/earth.obj"
+    },
+
+    "guiplayer":
+    {
+        "ScreenBorder": "Assets/guiplayer/ScreenBorder.png"
+    },
+
+    "guiMenu":
+    {
+        "hoverButtonArrow":
+        {
+            "left":"Assets/textures/Gui/MovingArrows/Left_Arrow.png",
+            "right":"Assets/textures/Gui/MovingArrows/Right_Arrow.png"
+        },
+        "exitButton":
+        {
+            "normal": "Assets/textures/GUI/MainMenu/Buttons/Exit/Exit_Normal.png",
+            "hover": "Assets/textures/GUI/MainMenu/Buttons/Exit/Exit_Hover.png",
+            "pressed": "Assets/textures/GUI/MainMenu/Buttons/Exit/Exit_Pressed.png"
+        }
     }
 }
