@@ -151,5 +151,10 @@
             "type": "music",
             "dir": "Assets/misc/DDH.mp3"
         }
+    },
+
+    "nausea":
+    {
+        "dir": "Assets/textures/nausea.png"
     }
 }
