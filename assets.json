@@ -119,5 +119,9 @@
     {
         "texture": "Assets/objects/planet/earth.jpg",
         "object": "Assets/objects/planet/earth.obj"
+    },
+    "guiplayer":
+    {
+        "ScreenBorder": "Assets/guiplayer/ScreenBorder.png"
     }
 }
