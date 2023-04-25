@@ -141,7 +141,7 @@
         }
     },
 
-    "music":
+    "playlist":
     {
         "menu": "dependencies\\music\\BATIMS.mp3",
         "game": "dependencies\\music\\DDH.mp3"
