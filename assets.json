@@ -143,7 +143,13 @@
 
     "playlist":
     {
-        "menu": "Assets/misc/BATIMS.mp3",
-        "game": "Assets/misc/DDH.mp3"
+        "menu": {
+            "type": "music",
+            "dir": "Assets/misc/BATIMS.mp3"
+        },
+        "game": {
+            "type": "music",
+            "dir": "Assets/misc/DDH.mp3"
+        }
     }
 }
