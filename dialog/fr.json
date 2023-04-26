@@ -1,0 +1,21 @@
+{
+    "menu":
+    {
+        "main":
+        {
+            "play_btn":"Jouer",
+            "newGame_btn":"Nouvelle parties",
+            "leaderboard_btn":"Leaderboard",
+            "saves_btn":"Sauvegardes",
+            "options_btn":"Options",
+            "exit_btn":"Quitter"
+        },
+        "options":
+        {
+            "title":"Options :",
+            "lang":"Langues :",
+            "langSelect":"Francais",
+            "back":"Retour"
+        }
+    }
+}

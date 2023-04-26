@@ -14,16 +14,6 @@
         "dir": "Assets/skybox/",
         "ext": "png"
     },
-    
-    "noise":
-    {
-        "dir": "Assets/textures/shade/noise.jpg"
-    },
-    
-    "iridescence":
-    {
-        "dir": "Assets/textures/shade/iridescence.png"
-    },
 
     "cube":
     {
@@ -120,6 +110,7 @@
         "texture": "Assets/objects/planet/earth.jpg",
         "object": "Assets/objects/planet/earth.obj"
     },
+
     "guiplayer":
     {
         "ScreenBorder": "Assets/guiplayer/ScreenBorder.png",
@@ -137,5 +128,115 @@
         "4":"Assets/guiplayer/EnergyBarre4.png",
         "5":"Assets/guiplayer/EnergyBarre5.png",
         "6":"Assets/guiplayer/EnergyBarre6Full.png"
+    },
+    "guiMenu":
+    {
+        "main":
+        {
+            "background":"Assets/textures/Gui/MainMenu/MainMenu_BG.png",
+            "playButton":
+            {
+                "normal": "Assets/textures/GUI/MainMenu/Buttons/Play/Play_Normal.png",
+                "hover": "Assets/textures/GUI/MainMenu/Buttons/Play/Play_Hover.png",
+                "pressed": "Assets/textures/GUI/MainMenu/Buttons/Play/Play_Pressed.png"
+            },
+            "newGameButton":
+            {
+                "normal": "Assets/textures/GUI/MainMenu/Buttons/NewGame/NewGame_Normal.png",
+                "hover": "Assets/textures/GUI/MainMenu/Buttons/NewGame/NewGame_Hover.png",
+                "pressed": "Assets/textures/GUI/MainMenu/Buttons/NewGame/NewGame_Pressed.png"
+            },
+            "leaderboardButton":
+            {
+                "normal": "Assets/textures/GUI/MainMenu/Buttons/Leaderboard/Leaderboard_Normal.png",
+                "hover": "Assets/textures/GUI/MainMenu/Buttons/Leaderboard/Leaderboard_Hover.png",
+                "pressed": "Assets/textures/GUI/MainMenu/Buttons/Leaderboard/Leaderboard_Pressed.png"
+            },
+            "savesButton":
+            {
+                "normal": "Assets/textures/GUI/MainMenu/Buttons/Saves/Saves_Normal.png",
+                "hover": "Assets/textures/GUI/MainMenu/Buttons/Saves/Saves_Hover.png",
+                "pressed": "Assets/textures/GUI/MainMenu/Buttons/Saves/Saves_Pressed.png"
+            },
+            "optionsButton":
+            {
+                "normal": "Assets/textures/GUI/MainMenu/Buttons/Options/Options_Normal.png",
+                "hover": "Assets/textures/GUI/MainMenu/Buttons/Options/Options_Hover.png",
+                "pressed": "Assets/textures/GUI/MainMenu/Buttons/Options/Options_Pressed.png"
+            },
+            "exitButton":
+            {
+                "normal": "Assets/textures/GUI/MainMenu/Buttons/Exit/Exit_Normal.png",
+                "hover": "Assets/textures/GUI/MainMenu/Buttons/Exit/Exit_Hover.png",
+                "pressed": "Assets/textures/GUI/MainMenu/Buttons/Exit/Exit_Pressed.png"
+            }
+        },
+        "pause":
+        {
+            "resumeButton":
+            {
+                "normal": "Assets/textures/Gui/PauseMenu/Buttons/ResumeButton/Resume_Normal.png",
+                "hover": "Assets/textures/Gui/PauseMenu/Buttons/ResumeButton/Resume_Hover.png"
+            },
+            "menuButton":
+            {
+                "normal": "Assets/textures/Gui/PauseMenu/Buttons/MenuButton/Menu_Normal.png",
+                "hover": "Assets/textures/Gui/PauseMenu/Buttons/MenuButton/Menu_Hover.png"
+            },
+            "exitButton":
+            {
+                "normal": "Assets/textures/Gui/PauseMenu/Buttons/ExitButton/Exit_Normal.png",
+                "hover": "Assets/textures/Gui/PauseMenu/Buttons/ExitButton/Exit_Hover.png"
+            }
+        },
+        "quest":
+        {
+            "demo":"Assets/textures/Gui/QuestMenu/Background.png"
+        },
+        "allMenu":
+        {
+            "backgroundFilter":"Assets/textures/Gui/AllMenu/Background.png",
+            "window":"Assets/textures/Gui/AllMenu/Window.png",
+            "hoverButtonArrow":
+            {
+                "left":"Assets/textures/Gui/AllMenu/MovingArrows/Left_Arrow.png",
+                "right":"Assets/textures/Gui/AllMenu/MovingArrows/Right_Arrow.png"
+            }
+        }
+    },
+
+    "playlist":
+    {
+        "menu": {
+            "type": "music",
+            "dir": "Assets/misc/Test_milky_wagon.mp3"
+        },
+        "game": {
+            "type": "music",
+            "dir": "Assets/misc/Fly_in_space.mp3"
+        }
+    },
+
+    "nausea":
+    {
+        "dir": "Assets/textures/nausea.png"
+    },
+
+    "debrisBroken":
+    {
+        "texture": "Assets/objects/debris_broken/Debris_Broken_BaseColor.png",
+        "metal": "Assets/objects/debris_broken/Debris_Broken_Metallic.png",
+        "rough": "Assets/objects/debris_broken/Debris_Broken_Roughness.png",
+        "normal": "Assets/objects/debris_broken/Debris_Broken_Normal.png",
+        "object": "Assets/objects/debris_broken/debris_broken.obj"
+    },
+
+    "asteroide":
+    {
+        "texture": "Assets/objects/Asteroid/Asteroid_BaseColor.png",
+        "metal": "Assets/textures/shade/baseMetal.jpg",
+        "rough": "Assets/textures/shade/baseRough.jpg",
+        "normal": "Assets/objects/Asteroid/Asteroid_Normal.png",
+        "object": "Assets/objects/Asteroid/Asteroid.obj"
     }
 }

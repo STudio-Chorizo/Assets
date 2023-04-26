@@ -1,0 +1,21 @@
+{
+    "menu":
+    {
+        "main":
+        {
+            "play_btn":"Play",
+            "newGame_btn":"New Game",
+            "leaderboard_btn":"Leaderboard",
+            "saves_btn":"Saves",
+            "options_btn":"Options",
+            "exit_btn":"Exit"
+        },
+        "options":
+        {
+            "title":"Options :",
+            "lang":"Languages :",
+            "langSelect":"English",
+            "back":"Back"
+        }
+    }
+}
