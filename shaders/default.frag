@@ -15,7 +15,9 @@ struct Light {
 };
 
 uniform Light light;
-uniform sampler2D u_texture_0;
+uniform sampler2D base_color;
+uniform sampler2D texture_metal;
+uniform sampler2D texture_rough;
 uniform vec3 camPos;
 uniform sampler2DShadow shadowMap;
 uniform vec2 u_resolution;
@@ -82,13 +84,13 @@ vec3 getLight(vec3 color) {
     // diffuse light
     vec3 lightDir = normalize(light.position - fragPos);
     float diff = max(0, dot(lightDir, Normal));
-    vec3 diffuse = diff * light.Id;
+    vec3 diffuse = diff * light.Id  * texture(texture_rough, uv_0).rgb;
 
     // specular light
     vec3 viewDir = normalize(camPos - fragPos);
     vec3 reflectDir = reflect(-lightDir, Normal);
     float spec = pow(max(dot(viewDir, reflectDir), 0), 32);
-    vec3 specular = spec * light.Is;
+    vec3 specular = spec * light.Is * texture(texture_metal, uv_0).rgb;
 
     // shadow
 //    float shadow = getShadow();
@@ -100,13 +102,13 @@ vec3 getLight(vec3 color) {
 
 void main() {
     float gamma = 2.2;
-    vec3 color = texture(u_texture_0, uv_0).rgb;
+    vec3 color = texture(base_color, uv_0).rgb;
     color = pow(color, vec3(gamma));
 
     color = getLight(color);
 
     color = pow(color, 1 / vec3(gamma));
-    fragColor = vec4(color, 1.0);
+    fragColor = vec4(color, 1.0); 
 }
 
 

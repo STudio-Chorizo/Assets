@@ -13,6 +13,7 @@ uniform mat4 m_proj;
 uniform mat4 m_view;
 uniform mat4 m_view_light;
 uniform mat4 m_model;
+uniform sampler2D texture_normal;
 
 mat4 m_shadow_bias = mat4(
     0.5, 0.0, 0.0, 0.0,
@@ -25,7 +26,11 @@ mat4 m_shadow_bias = mat4(
 void main() {
     uv_0 = in_texcoord_0;
     fragPos = vec3(m_model * vec4(in_position, 1.0));
-    normal = mat3(transpose(inverse(m_model))) * normalize(in_normal);
+    
+    //normal = mat3(transpose(inverse(m_model))) * normalize(in_normal);
+    normal = texture(texture_normal, uv_0).rgb;
+    normal = normalize(normal * 2.0 - 1.0); 
+
     gl_Position = m_proj * m_view * m_model * vec4(in_position, 1.0);
 
     mat4 shadowMVP = m_proj * m_view_light * m_model;

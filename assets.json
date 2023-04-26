@@ -14,16 +14,6 @@
         "dir": "Assets/skybox/",
         "ext": "png"
     },
-    
-    "noise":
-    {
-        "dir": "Assets/textures/shade/noise.jpg"
-    },
-    
-    "iridescence":
-    {
-        "dir": "Assets/textures/shade/iridescence.png"
-    },
 
     "cube":
     {
@@ -217,5 +207,23 @@
     "nausea":
     {
         "dir": "Assets/textures/nausea.png"
+    },
+
+    "debrisBroken":
+    {
+        "texture": "Assets/objects/debris_broken/Debris_Broken_BaseColor.png",
+        "metal": "Assets/objects/debris_broken/Debris_Broken_Metallic.png",
+        "rough": "Assets/objects/debris_broken/Debris_Broken_Roughness.png",
+        "normal": "Assets/objects/debris_broken/Debris_Broken_Normal.png",
+        "object": "Assets/objects/debris_broken/debris_broken.obj"
+    },
+
+    "asteroide":
+    {
+        "texture": "Assets/objects/Asteroid/Asteroid_BaseColor.png",
+        "metal": "Assets/textures/shade/baseMetal.jpg",
+        "rough": "Assets/textures/shade/baseRough.jpg",
+        "normal": "Assets/objects/Asteroid/Asteroid_Normal.png",
+        "object": "Assets/objects/Asteroid/Asteroid.obj"
     }
 }
