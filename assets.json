@@ -113,21 +113,21 @@
 
     "guiplayer":
     {
-        "ScreenBorder": "Assets/guiplayer/ScreenBorder.png",
-        "HealthBarCounters":"Assets/guiplayer/HealthBarCounters.png",
-        "DroneHealthBarNegative":"Assets/guiplayer/DroneHealthBarNegative.png",
-        "DroneHealthBarPositive":"Assets/guiplayer/DroneHealthBarPositive.png",
-        "AimUiLightBlueWhite":"Assets/guiplayer/AimUiLightBlueWhite.png"
+        "ScreenBorder": "Assets/textures/Gui/InGame/ScreenBorder.png",
+        "HealthBarCounters":"Assets/textures/Gui/InGame/HealthBarCounters.png",
+        "DroneHealthBarNegative":"Assets/textures/Gui/InGame/DroneHealthBarNegative.png",
+        "DroneHealthBarPositive":"Assets/textures/Gui/InGame/DroneHealthBarPositive.png",
+        "AimUiLightBlueWhite":"Assets/texture/Gui/InGame/AimUiLightBlueWhite.png"
     },
     "magazine":
     {
-        "0":"Assets/guiplayer/EnergyBarre0Empty.png",
-        "1":"Assets/guiplayer/EnergyBarre1.png",
-        "2":"Assets/guiplayer/EnergyBarre2.png",
-        "3":"Assets/guiplayer/EnergyBarre3.png",
-        "4":"Assets/guiplayer/EnergyBarre4.png",
-        "5":"Assets/guiplayer/EnergyBarre5.png",
-        "6":"Assets/guiplayer/EnergyBarre6Full.png"
+        "0":"Assets/textures/Gui/InGame/EnergyBarre0Empty.png",
+        "1":"Assets/textures/Gui/InGame/EnergyBarre1.png",
+        "2":"Assets/textures/Gui/InGame/EnergyBarre2.png",
+        "3":"Assets/textures/Gui/InGame/EnergyBarre3.png",
+        "4":"Assets/textures/Gui/InGame/EnergyBarre4.png",
+        "5":"Assets/textures/Gui/InGame/EnergyBarre5.png",
+        "6":"Assets/textures/Gui/InGame/EnergyBarre6Full.png"
     },
     "guiMenu":
     {
