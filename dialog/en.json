@@ -1,17 +1,21 @@
 {
     "menu":
     {
-        "pause":
+        "main":
         {
-            "resume_btn":"Resume",
+            "play_btn":"Play",
+            "newGame_btn":"New Game",
+            "leaderboard_btn":"Leaderboard",
+            "saves_btn":"Saves",
             "options_btn":"Options",
             "exit_btn":"Exit"
         },
-        "option":
+        "options":
         {
-            "back_btn":"Back",
-            "fr_btn":"French",
-            "en_btn":"English"
+            "title":"Options :",
+            "lang":"Languages :",
+            "langSelect":"English",
+            "back":"Back"
         }
     }
 }

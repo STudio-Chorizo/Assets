@@ -10,11 +10,12 @@
             "options_btn":"Options",
             "exit_btn":"Quitter"
         },
-        "option":
+        "options":
         {
-            "back_btn":"Retour",
-            "fr_btn":"Français",
-            "en_btn":"Anglais"
+            "title":"Options :",
+            "lang":"Langues :",
+            "langSelect":"Francais",
+            "back":"Retour"
         }
     }
 }

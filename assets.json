@@ -170,8 +170,6 @@
         },
         "pause":
         {
-            "background":"Assets/textures/Gui/PauseMenu/Background.png",
-            "window":"Assets/textures/Gui/PauseMenu/Window.png",
             "resumeButton":
             {
                 "normal": "Assets/textures/Gui/PauseMenu/Buttons/ResumeButton/Resume_Normal.png",
@@ -188,16 +186,18 @@
                 "hover": "Assets/textures/Gui/PauseMenu/Buttons/ExitButton/Exit_Hover.png"
             }
         },
-        "options":
+        "quest":
         {
-            
+            "demo":"Assets/textures/Gui/QuestMenu/Background.png"
         },
         "allMenu":
         {
+            "backgroundFilter":"Assets/textures/Gui/AllMenu/Background.png",
+            "window":"Assets/textures/Gui/AllMenu/Window.png",
             "hoverButtonArrow":
             {
-                "left":"Assets/textures/Gui/MovingArrows/Left_Arrow.png",
-                "right":"Assets/textures/Gui/MovingArrows/Right_Arrow.png"
+                "left":"Assets/textures/Gui/AllMenu/MovingArrows/Left_Arrow.png",
+                "right":"Assets/textures/Gui/AllMenu/MovingArrows/Right_Arrow.png"
             }
         }
     },
