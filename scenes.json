@@ -5,7 +5,6 @@
             "type": "Player",
             "name": "eagle",
             "obj": "eagle",
-            "shader": "default",
             "pos": [0, 0, 0],
             "rot": [0, 0, 0],
             "scale": [1, 1, 1],
@@ -16,46 +15,42 @@
         {
             "type": "GameObject",
             "name": "cat",
-            "obj": "cat",
-            "shader": "default",
+            "obj": "asteroide",
             "pos": [0, 0, 100],
-            "rot": [-90, 180, 0],
+            "rot": [-90, 0, 0],
             "scale": [1, 1, 1],
-            "collider": [5, 6, 5],
+            "collider": [1, 1, 1],
             "nb": 1
         },
 
         {
             "type": "GameObject",
             "name": "cat",
-            "obj": "cat",
-            "shader": "default",
+            "obj": "debrisBroken",
             "pos": [-10, 0, 100],
-            "rot": [0, 180, 0],
+            "rot": [0, 0, 0],
             "scale": [1, 1, 1],
-            "collider": [5, 6, 5],
+            "collider": [1, 1, 1],
             "nb": 1
         },
 
         {
             "type": "GameObject",
             "name": "cat",
-            "obj": "cat",
-            "shader": "default",
+            "obj": "debrisBroken",
             "pos": [10, 0, 100],
-            "rot": [0, 180, 0],
+            "rot": [0, 0, 0],
             "scale": [1, 1, 1],
-            "collider": [5, 6, 5],
+            "collider": [1, 1, 1],
             "nb": 1
         },
 
         {
             "type": "GameObject",
             "name": "cat",
-            "obj": "cat",
-            "shader": "default",
+            "obj": "debrisBroken",
             "pos": [100, 100, 50],
-            "rot": [-90, 180, 0],
+            "rot": [-90, 0, 0],
             "scale": [1, 1, 1],
             "collider": [5, 6, 5],
             "nb": 1
@@ -65,9 +60,8 @@
             "type": "GameObject",
             "name": "cat",
             "obj": "cat",
-            "shader": "default",
             "pos": [-100, 100, 50],
-            "rot": [-90, 180, 0],
+            "rot": [-90, 0, 0],
             "scale": [1, 1, 1],
             "collider": [5, 6, 5],
             "nb": 1
@@ -77,9 +71,8 @@
             "type": "GameObject",
             "name": "cat",
             "obj": "cat",
-            "shader": "default",
             "pos": [100, -100, 50],
-            "rot": [-90, 180, 0],
+            "rot": [-90, 0, 0],
             "scale": [1, 1, 1],
             "collider": [5, 6, 5],
             "nb": 1
@@ -89,9 +82,8 @@
             "type": "GameObject",
             "name": "cat",
             "obj": "cat",
-            "shader": "default",
             "pos": [-100, -100, 50],
-            "rot": [-90, 180, 0],
+            "rot": [-90, 0, 0],
             "scale": [1, 1, 1],
             "collider": [5, 6, 5],
             "nb": 1

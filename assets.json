@@ -14,110 +14,148 @@
         "dir": "Assets/skybox/",
         "ext": "png"
     },
-    
-    "noise":
-    {
-        "dir": "Assets/textures/shade/noise.jpg"
-    },
-    
-    "iridescence":
-    {
-        "dir": "Assets/textures/shade/iridescence.png"
-    },
 
     "cube":
     {
         "texture": "Assets/textures/img.png",
+        "metal": null,
+        "rough": null,
+        "normal": null,
         "object": "Assets/textures/cube.obj"
     },
 
     "cube1":
     {
         "texture": "Assets/textures/img_1.png",
+        "metal": null,
+        "rough": null,
+        "normal": null,
         "object": "Assets/textures/cube.obj"
     },
 
     "cube2":
     {
         "texture": "Assets/textures/img_2.png",
+        "metal": null,
+        "rough": null,
+        "normal": null,
         "object": "Assets/textures/cube.obj"
     },
 
     "cat":
     {
         "texture": "Assets/objects/cat/20430_Cat_diff_v1.jpg",
+        "metal": null,
+        "rough": null,
+        "normal": null,
         "object": "Assets/objects/cat/20430_Cat_v1_NEW.obj"
     },
 
     "eagle":
     {
         "texture": "Assets/objects/eagle/all_pieces.jpg",
+        "metal": null,
+        "rough": null,
+        "normal": null,
         "object": "Assets/objects/eagle/all_pieces.obj"
     },
 
     "eagle_body":
     {
         "texture": "Assets/objects/eagle/body.jpg",
+        "metal": null,
+        "rough": null,
+        "normal": null,
         "object": "Assets/objects/eagle/body.obj"
     },
 
     "eagle_head":
     {
         "texture": "Assets/objects/eagle/head.jpg",
+        "metal": null,
+        "rough": null,
+        "normal": null,
         "object": "Assets/objects/eagle/head.obj"
     },
 
     "eagle_tail":
     {
         "texture": "Assets/objects/eagle/tail.jpg",
+        "metal": null,
+        "rough": null,
+        "normal": null,
         "object": "Assets/objects/eagle/tail.obj"
     },
 
     "eagle_left_leg":
     {
         "texture": "Assets/objects/eagle/left_leg.jpg",
+        "metal": null,
+        "rough": null,
+        "normal": null,
         "object": "Assets/objects/eagle/left_leg.obj"
     },
 
     "eagle_right_leg":
     {
         "texture": "Assets/objects/eagle/right_leg.jpg",
+        "metal": null,
+        "rough": null,
+        "normal": null,
         "object": "Assets/objects/eagle/right_leg.obj"
     },
 
     "eagle_left_wing":
     {
         "texture": "Assets/objects/eagle/left_wing.jpg",
+        "metal": null,
+        "rough": null,
+        "normal": null,
         "object": "Assets/objects/eagle/left_wing.obj"
     },
 
     "eagle_right_wing":
     {
         "texture": "Assets/objects/eagle/right_wing.jpg",
+        "metal": null,
+        "rough": null,
+        "normal": null,
         "object": "Assets/objects/eagle/right_wing.obj"
     },
 
     "asteroid":
     {
         "texture": "Assets/objects/debris/asteroid.jpg",
+        "metal": null,
+        "rough": null,
+        "normal": null,
         "object": "Assets/objects/debris/asteroid.obj"
     },
 
     "debris1":
     {
         "texture": "Assets/objects/debris/debris1.jpg",
+        "metal": null,
+        "rough": null,
+        "normal": null,
         "object": "Assets/objects/debris/debris1.obj"
     },
 
     "debris2":
     {
         "texture": "Assets/objects/debris/debris2.jpg",
+        "metal": null,
+        "rough": null,
+        "normal": null,
         "object": "Assets/objects/debris/debris2.obj"
     },
 
     "planet":
     {
         "texture": "Assets/objects/planet/earth.jpg",
+        "metal": null,
+        "rough": null,
+        "normal": null,
         "object": "Assets/objects/planet/earth.obj"
     },
 
@@ -217,5 +255,23 @@
     "nausea":
     {
         "dir": "Assets/textures/nausea.png"
+    },
+
+    "debrisBroken":
+    {
+        "texture": "Assets/objects/debris_broken/Debris_Broken_BaseColor.png",
+        "metal": "Assets/objects/debris_broken/Debris_Broken_Metallic.png",
+        "rough": "Assets/objects/debris_broken/Debris_Broken_Roughness.png",
+        "normal": "Assets/objects/debris_broken/Debris_Broken_Normal.png",
+        "object": "Assets/objects/debris_broken/debris_broken.obj"
+    },
+
+    "asteroide":
+    {
+        "texture": "Assets/objects/Asteroid/Asteroid_BaseColor.png",
+        "metal": "Assets/textures/shade/baseMetal.jpg",
+        "rough": "Assets/textures/shade/baseRough.jpg",
+        "normal": "Assets/objects/Asteroid/Asteroid_Normal.png",
+        "object": "Assets/objects/Asteroid/Asteroid.obj"
     }
 }
