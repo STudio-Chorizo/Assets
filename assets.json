@@ -122,6 +122,20 @@
     },
     "guiplayer":
     {
-        "ScreenBorder": "Assets/guiplayer/ScreenBorder.png"
+        "ScreenBorder": "Assets/guiplayer/ScreenBorder.png",
+        "HealthBarCounters":"Assets/guiplayer/HealthBarCounters.png",
+        "DroneHealthBarNegative":"Assets/guiplayer/DroneHealthBarNegative.png",
+        "DroneHealthBarPositive":"Assets/guiplayer/DroneHealthBarPositive.png",
+        "AimUiLightBlueWhite":"Assets/guiplayer/AimUiLightBlueWhite.png"
+    },
+    "magazine":
+    {
+        "0":"Assets/guiplayer/EnergyBarre0Empty.png",
+        "1":"Assets/guiplayer/EnergyBarre1.png",
+        "2":"Assets/guiplayer/EnergyBarre2.png",
+        "3":"Assets/guiplayer/EnergyBarre3.png",
+        "4":"Assets/guiplayer/EnergyBarre4.png",
+        "5":"Assets/guiplayer/EnergyBarre5.png",
+        "6":"Assets/guiplayer/EnergyBarre6Full.png"
     }
 }
