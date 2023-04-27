@@ -113,9 +113,22 @@
 
     "guiplayer":
     {
-        "ScreenBorder": "Assets/textures/Gui/InGame/ScreenBorder.png"
+        "ScreenBorder": "Assets/textures/Gui/InGame/ScreenBorder.png",
+        "HealthBarCounters":"Assets/textures/Gui/InGame/HealthBarCounters.png",
+        "DroneHealthBarNegative":"Assets/textures/Gui/InGame/DroneHealthBarNegative.png",
+        "DroneHealthBarPositive":"Assets/textures/Gui/InGame/DroneHealthBarPositive.png",
+        "AimUiLightBlueWhite":"Assets/texture/Gui/InGame/AimUiLightBlueWhite.png"
     },
-
+    "magazine":
+    {
+        "0":"Assets/textures/Gui/InGame/EnergyBarre0Empty.png",
+        "1":"Assets/textures/Gui/InGame/EnergyBarre1.png",
+        "2":"Assets/textures/Gui/InGame/EnergyBarre2.png",
+        "3":"Assets/textures/Gui/InGame/EnergyBarre3.png",
+        "4":"Assets/textures/Gui/InGame/EnergyBarre4.png",
+        "5":"Assets/textures/Gui/InGame/EnergyBarre5.png",
+        "6":"Assets/textures/Gui/InGame/EnergyBarre6Full.png"
+    },
     "guiMenu":
     {
         "main":
@@ -200,7 +213,7 @@
         },
         "game": {
             "type": "music",
-            "dir": "Assets/misc/DDH.mp3"
+            "dir": "Assets/misc/Fly_in_space.mp3"
         }
     },
 
