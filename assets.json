@@ -157,7 +157,7 @@
         "HealthBarCounters":"Assets/textures/Gui/InGame/HealthBarCounters.png",
         "DroneHealthBarNegative":"Assets/textures/Gui/InGame/DroneHealthBarNegative.png",
         "DroneHealthBarPositive":"Assets/textures/Gui/InGame/DroneHealthBarPositive.png",
-        "AimUiLightBlueWhite":"Assets/texture/Gui/InGame/AimUiLightBlueWhite.png"
+        "AimUiLightBlueWhite":"Assets/textures/Gui/InGame/AimUiLightBlueWhite.png"
     },
     "magazine":
     {
