@@ -5,7 +5,7 @@
         {
             "play_btn":"Jouer",
             "newGame_btn":"Nouvelle parties",
-            "leaderboard_btn":"Leaderboard",
+            "leaderboard_btn":"Classement",
             "saves_btn":"Sauvegardes",
             "options_btn":"Options",
             "exit_btn":"Quitter"
