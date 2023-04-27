@@ -25,8 +25,8 @@
 
         {
             "type": "GameObject",
-            "name": "cat",
-            "obj": "asteroide",
+            "name": "astre",
+            "obj": "asteroid",
             "pos": [0, 0, 100],
             "rot": [0, 180, 0],
             "scale": [1, 1, 1],

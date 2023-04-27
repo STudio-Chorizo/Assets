@@ -141,7 +141,7 @@
 
     "bullet":
     {
-        "texture": "Assets/objects/bullet/bullet.png",
+        "texture": "Assets/objects/bullet/bullet_BaseColor.png",
         "object": "Assets/objects/bullet/bullet.obj"
     },
 
