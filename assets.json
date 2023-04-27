@@ -225,5 +225,11 @@
         "rough": "Assets/textures/shade/baseRough.jpg",
         "normal": "Assets/objects/Asteroid/Asteroid_Normal.png",
         "object": "Assets/objects/Asteroid/Asteroid.obj"
+    },
+
+    "bullet":
+    {
+        "texture": "Assets/objects/bullet/Bullet_BaseColor.png",
+        "object": "Assets/objects/bullet/bullet.obj"
     }
 }
