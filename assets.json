@@ -41,50 +41,23 @@
 
     "eagle":
     {
-        "texture": "Assets/objects/eagle/all_pieces.jpg",
-        "object": "Assets/objects/eagle/all_pieces.obj"
-    },
-
-    "eagle_body":
-    {
-        "texture": "Assets/objects/eagle/body.jpg",
-        "object": "Assets/objects/eagle/body.obj"
-    },
-
-    "eagle_head":
-    {
-        "texture": "Assets/objects/eagle/head.jpg",
-        "object": "Assets/objects/eagle/head.obj"
-    },
-
-    "eagle_tail":
-    {
-        "texture": "Assets/objects/eagle/tail.jpg",
-        "object": "Assets/objects/eagle/tail.obj"
-    },
-
-    "eagle_left_leg":
-    {
-        "texture": "Assets/objects/eagle/left_leg.jpg",
-        "object": "Assets/objects/eagle/left_leg.obj"
-    },
-
-    "eagle_right_leg":
-    {
-        "texture": "Assets/objects/eagle/right_leg.jpg",
-        "object": "Assets/objects/eagle/right_leg.obj"
+        "texture": "Assets/objects/eagle/body_BaseColor.png",
+        "object": "Assets/objects/eagle/body.obj",
+        "normal": "Assets/objects/eagle/body_Normal.png"
     },
 
     "eagle_left_wing":
     {
-        "texture": "Assets/objects/eagle/left_wing.jpg",
-        "object": "Assets/objects/eagle/left_wing.obj"
+        "texture": "Assets/objects/eagle/wings_BaseColor.png",
+        "object": "Assets/objects/eagle/left_wing.obj",
+        "normal": "Assets/objects/eagle/wings_Normal.png"
     },
 
     "eagle_right_wing":
     {
-        "texture": "Assets/objects/eagle/right_wing.jpg",
-        "object": "Assets/objects/eagle/right_wing.obj"
+        "texture": "Assets/objects/eagle/wings_BaseColor.png",
+        "object": "Assets/objects/eagle/right_wing.obj",
+        "normal": "Assets/objects/eagle/wings_Normal.png"
     },
 
     "debrisBroken":

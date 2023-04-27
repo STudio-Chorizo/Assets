@@ -1,7 +1,7 @@
-# Blender 3.5.0 MTL File: 'None'
+# Blender 3.3.0 MTL File: 'shoot.blend'
 # www.blender.org
 
-newmtl lambert1.010
+newmtl lambert1
 Ns 200.000000
 Ka 1.000000 1.000000 1.000000
 Kd 0.500000 0.500000 0.500000
