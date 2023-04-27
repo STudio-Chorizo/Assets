@@ -87,28 +87,68 @@
         "object": "Assets/objects/eagle/right_wing.obj"
     },
 
+    "debrisBroken":
+    {
+        "texture": "Assets/objects/debris_broken/Debris_Broken_BaseColor.png",
+        "metal": "Assets/objects/debris_broken/Debris_Broken_Metallic.png",
+        "rough": "Assets/objects/debris_broken/Debris_Broken_Roughness.png",
+        "normal": "Assets/objects/debris_broken/Debris_Broken_Normal.png",
+        "object": "Assets/objects/debris_broken/debris_broken.obj"
+    },
+
     "asteroid":
     {
-        "texture": "Assets/objects/debris/asteroid.jpg",
-        "object": "Assets/objects/debris/asteroid.obj"
+        "texture": "Assets/objects/Asteroid/Asteroid_BaseColor.png",
+        "metal": "Assets/textures/shade/baseMetal.jpg",
+        "rough": "Assets/textures/shade/baseRough.jpg",
+        "normal": "Assets/objects/Asteroid/Asteroid_Normal.png",
+        "object": "Assets/objects/Asteroid/Asteroid.obj"
     },
 
     "debris1":
     {
-        "texture": "Assets/objects/debris/debris1.jpg",
-        "object": "Assets/objects/debris/debris1.obj"
+        "texture": "Assets/objects/debris/debris1.png",
+        "object": "Assets/objects/debris/debris1.obj",
+        "normal": "Assets/objects/debris/debris1_normal.png"
     },
 
     "debris2":
     {
-        "texture": "Assets/objects/debris/debris2.jpg",
-        "object": "Assets/objects/debris/debris2.obj"
+        "texture": "Assets/objects/debris/debris2.png",
+        "object": "Assets/objects/debris/debris2.obj",
+        "normal": "Assets/objects/debris/debris2_normal.png"
+    },
+
+    "debris3":
+    {
+        "texture": "Assets/objects/debris/debris3.png",
+        "object": "Assets/objects/debris/debris3.obj",
+        "normal": "Assets/objects/debris/debris3_normal.png"
+    },
+
+    "debris4":
+    {
+        "texture": "Assets/objects/debris/debris4.png",
+        "object": "Assets/objects/debris/debris4.obj",
+        "normal": "Assets/objects/debris/debris4_normal.png"
     },
 
     "planet":
     {
         "texture": "Assets/objects/planet/earth.jpg",
         "object": "Assets/objects/planet/earth.obj"
+    },
+
+    "bullet":
+    {
+        "texture": "Assets/objects/bullet/bullet.png",
+        "object": "Assets/objects/bullet/bullet.obj"
+    },
+
+    "shoot":
+    {
+        "texture": "Assets/objects/shoot/texture.png",
+        "object": "Assets/objects/shoot/shoot.obj"
     },
 
     "guiplayer":
@@ -220,23 +260,5 @@
     "nausea":
     {
         "dir": "Assets/textures/nausea.png"
-    },
-
-    "debrisBroken":
-    {
-        "texture": "Assets/objects/debris_broken/Debris_Broken_BaseColor.png",
-        "metal": "Assets/objects/debris_broken/Debris_Broken_Metallic.png",
-        "rough": "Assets/objects/debris_broken/Debris_Broken_Roughness.png",
-        "normal": "Assets/objects/debris_broken/Debris_Broken_Normal.png",
-        "object": "Assets/objects/debris_broken/debris_broken.obj"
-    },
-
-    "asteroide":
-    {
-        "texture": "Assets/objects/Asteroid/Asteroid_BaseColor.png",
-        "metal": "Assets/textures/shade/baseMetal.jpg",
-        "rough": "Assets/textures/shade/baseRough.jpg",
-        "normal": "Assets/objects/Asteroid/Asteroid_Normal.png",
-        "object": "Assets/objects/Asteroid/Asteroid.obj"
     }
 }
