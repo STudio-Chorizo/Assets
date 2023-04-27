@@ -8,7 +8,7 @@
             "pos": [0, 0, 0],
             "rot": [0, 0, 0],
             "scale": [1, 1, 1],
-            "collider": [3, 2, 2],
+            "collider": [2, 2, 2],
             "nb": 1
         },
 
@@ -19,35 +19,35 @@
             "pos": [0, 0, 0],
             "rot": [0, 0, 0],
             "scale": [1, 1, 1],
-            "collider": [3, 2, 2],
-            "nb": 10
+            "collider": [2, 2, 2],
+            "nb": 20
         },
 
         {
             "type": "GameObject",
             "name": "cat",
-            "obj": "asteroid",
+            "obj": "asteroide",
             "pos": [0, 0, 100],
-            "rot": [-90, 0, 0],
+            "rot": [0, 180, 0],
             "scale": [1, 1, 1],
-            "collider": [1, 1, 1],
+            "collider": [4, 4, 4],
             "nb": 1
         },
 
         {
             "type": "GameObject",
-            "name": "cat",
+            "name": "debrisLeft",
             "obj": "debrisBroken",
             "pos": [-10, 0, 100],
             "rot": [0, 0, 0],
             "scale": [1, 1, 1],
-            "collider": [1, 1, 1],
+            "collider": [2, 2, 2],
             "nb": 1
         },
 
         {
             "type": "GameObject",
-            "name": "cat",
+            "name": "debrisRigth",
             "obj": "debrisBroken",
             "pos": [10, 0, 100],
             "rot": [0, 0, 0],
