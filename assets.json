@@ -151,6 +151,7 @@
         "main":
         {
             "background":"Assets/textures/Gui/MainMenu/MainMenu_BG.png",
+            "demoBG":"Assets/textures/Gui/MainMenu/Demo_BG.png",
             "playButton":
             {
                 "normal": "Assets/textures/GUI/MainMenu/Buttons/Play/Play_Normal.png",
