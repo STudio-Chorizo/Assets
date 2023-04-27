@@ -82,28 +82,32 @@
     {
         "texture": "Assets/objects/debris/debris1.png",
         "object": "Assets/objects/debris/debris1.obj",
-        "normal": "Assets/objects/debris/debris1_normal.png"
+        "normal": "Assets/objects/debris/debris1_normal.png",
+        "metal": "Assets/textures/shade/debris1_Metallic.jpg"
     },
 
     "debris2":
     {
         "texture": "Assets/objects/debris/debris2.png",
         "object": "Assets/objects/debris/debris2.obj",
-        "normal": "Assets/objects/debris/debris2_normal.png"
+        "normal": "Assets/objects/debris/debris2_normal.png",
+        "metal": "Assets/textures/shade/debris2_Metallic.jpg"
     },
 
     "debris3":
     {
         "texture": "Assets/objects/debris/debris3.png",
         "object": "Assets/objects/debris/debris3.obj",
-        "normal": "Assets/objects/debris/debris3_normal.png"
+        "normal": "Assets/objects/debris/debris3_normal.png",
+        "metal": "Assets/textures/shade/debris3_Metallic.jpg"
     },
 
     "debris4":
     {
         "texture": "Assets/objects/debris/debris4.png",
         "object": "Assets/objects/debris/debris4.obj",
-        "normal": "Assets/objects/debris/debris4_normal.png"
+        "normal": "Assets/objects/debris/debris4_normal.png",
+        "metal": "Assets/textures/shade/debris4_Metallic.jpg"
     },
 
     "planet":
