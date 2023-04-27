@@ -27,33 +27,22 @@
             "type": "GameObject",
             "name": "aste",
             "obj": "asteroid",
-            "pos": [0, 0, 80],
+            "pos": [0, 0, 0],
             "rot": [0, 0, 0],
             "scale": [1, 1, 1],
             "collider": [4, 4, 4],
-            "nb": 1
+            "nb": 200
         },
 
         {
             "type": "GameObject",
             "name": "debrisLeft",
             "obj": "debrisBroken",
-            "pos": [-10, 0, 80],
+            "pos": [0, 0, 0],
             "rot": [0, 0, 0],
             "scale": [1, 1, 1],
             "collider": [2, 2, 2],
-            "nb": 1
-        },
-
-        {
-            "type": "GameObject",
-            "name": "debrisRigth",
-            "obj": "debrisBroken",
-            "pos": [10, 0, 80],
-            "rot": [0, 0, 0],
-            "scale": [1, 1, 1],
-            "collider": [1, 1, 1],
-            "nb": 1
+            "nb": 200
         }
     ]
 }
